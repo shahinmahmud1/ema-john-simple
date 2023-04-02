@@ -5,6 +5,9 @@
 .products-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
-    margin: 100px;
+    gap: 25px;
+    margin: 50px;
+}
+.cart-container{
+    margin-top: 80px;
 }
