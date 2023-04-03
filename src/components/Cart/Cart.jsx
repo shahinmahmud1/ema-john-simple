@@ -4,7 +4,7 @@ import './Cart.css';
 const Cart = ({cart}) => {
     // const cart = props.cart; option 1
     // const {cart} = props; option 2
-    // console.log(cart);
+    console.log(cart);
     let totalPrice = 0;
     let totalShipping = 0;
     for (const product of cart) {
@@ -13,7 +13,7 @@ const Cart = ({cart}) => {
     }
     const tax = totalPrice*10/100;
     const grandTotal = totalPrice + totalShipping + tax;
-    console.log(cart);
+    // console.log(cart);
     return (
         <div className='cart'>
             <h4>Oder Summary</h4>
