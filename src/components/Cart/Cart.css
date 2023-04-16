@@ -19,3 +19,16 @@
     letter-spacing: 0.0015em;
     color: #0E161A;
 }
+
+.btn-clear-cart{
+    height: 45px;
+    width: 100%;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    background-color: #FF3030;
+    border-radius: 4px;
+    color: white;
+}

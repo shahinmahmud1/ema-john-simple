@@ -11,3 +11,20 @@
 .cart-container{
     margin-top: 80px;
 }
+
+.proceed-link {
+    text-decoration: none;
+}
+
+.btn-proceed{
+    background-color: #FF9900;
+    height: 45px;
+    width: 100%;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    border-radius: 4px;
+    color: white;
+}
